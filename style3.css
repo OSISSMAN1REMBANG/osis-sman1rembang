@@ -1,0 +1,1105 @@
+.PROGRAM-KERJA {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .PROGRAM-KERJA .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 4985px;
+    position: relative;
+  }
+  
+  .custom-link{
+    color: #000000;
+  }
+  .custom-link:hover{
+    color: #000000;
+  }
+  .custom-link:visited{
+    color: #000000;
+  }
+  
+  .PROGRAM-KERJA .frame {
+    position: absolute;
+    width: 1440px;
+    height: 129px;
+    top: 0;
+    left: 0;
+  }
+  
+  .PROGRAM-KERJA .overlap {
+    position: absolute;
+    width: 139px;
+    height: 107px;
+    top: 15px;
+    left: 33px;
+  }
+  
+  .PROGRAM-KERJA .logo-sman-rembang {
+    width: 61px;
+    height: 72px;
+    top: 17px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .PROGRAM-KERJA .img {
+    width: 86px;
+    height: 107px;
+    top: 0;
+    left: 53px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .PROGRAM-KERJA .group {
+    position: absolute;
+    width: 775px;
+    height: 71px;
+    top: 29px;
+    left: 336px;
+  }
+  
+  .PROGRAM-KERJA .overlap-group {
+    position: absolute;
+    width: 350px;
+    height: 71px;
+    top: 0;
+    left: 0;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper {
+    position: absolute;
+    width: 154px;
+    height: 71px;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-2 {
+    position: absolute;
+    width: 215px;
+    height: 71px;
+    top: 0;
+    left: 135px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    color: #323d3f;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .overlap-group-2 {
+    position: absolute;
+    width: 402px;
+    height: 71px;
+    top: 0;
+    left: 365px;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-3 {
+    position: absolute;
+    width: 212px;
+    height: 71px;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    color: #0043f1;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-4 {
+    position: absolute;
+    width: 212px;
+    height: 71px;
+    top: 0;
+    left: 190px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .overlap-wrapper {
+    position: absolute;
+    width: 719px;
+    height: 115px;
+    top: 129px;
+    left: 363px;
+  }
+  
+  .PROGRAM-KERJA .overlap-2 {
+    position: relative;
+    width: 715px;
+    height: 115px;
+  }
+  
+  .PROGRAM-KERJA .p {
+    position: absolute;
+    width: 683px;
+    height: 60px;
+    top: 0;
+    left: 16px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 800;
+    color: #042545;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-5 {
+    display: flex;
+    width: 715px;
+    height: 37px;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 18px;
+    color: #052545;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .kontak-email-osis-wrapper {
+    position: absolute;
+    width: 1441px;
+    height: 183px;
+    top: 4802px;
+    left: -1px;
+    background-color: #323d3f;
+  }
+  
+  .PROGRAM-KERJA .kontak-email-osis {
+    position: absolute;
+    width: 1392px;
+    height: 116px;
+    top: 32px;
+    left: 24px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .span {
+    font-weight: 700;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-6 {
+    font-weight: 500;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-7 {
+    position: absolute;
+    width: 749px;
+    height: 87px;
+    top: 265px;
+    left: 323px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .group-2 {
+    position: absolute;
+    width: 1322px;
+    height: 2922px;
+    top: 1648px;
+    left: 59px;
+  }
+  
+  .PROGRAM-KERJA .background-border {
+    position: absolute;
+    width: 1322px;
+    height: 298px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #dddddd;
+    box-shadow: 0px 4px 6px #0000001a;
+  }
+  
+  .PROGRAM-KERJA .heading {
+    position: absolute;
+    width: 1320px;
+    height: 44px;
+    top: 1px;
+    left: 1px;
+    background-color: #323d3f;
+    border-radius: var(--osisadmin-github-io-radius-5)
+      var(--osisadmin-github-io-radius-5) 0px 0px;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-8 {
+    position: absolute;
+    height: 23px;
+    top: 9px;
+    left: 10px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18.7px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .container {
+    position: absolute;
+    width: 1320px;
+    height: 46px;
+    top: 45px;
+    left: 1px;
+  }
+  
+  .PROGRAM-KERJA .div-2 {
+    position: absolute;
+    height: 16px;
+    top: 14px;
+    left: 15px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #556474;
+    font-size: 13.6px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-9 {
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #556474;
+    font-size: 13.6px;
+    letter-spacing: 0;
+  }
+  
+  .PROGRAM-KERJA .list {
+    height: 235px;
+    top: 91px;
+    position: absolute;
+    width: 1320px;
+    left: 1px;
+    gap: var(--osisadmin-github-io-radius-5);
+  }
+  
+  .PROGRAM-KERJA .item {
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    top: 14px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-10 {
+    position: absolute;
+    height: 16px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #333333;
+    font-size: 13.2px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .div-wrapper {
+    top: 35px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-11 {
+    position: absolute;
+    height: 16px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #333333;
+    font-size: 13.1px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .item-2 {
+    top: 56px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .item-3 {
+    top: 77px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .item-4 {
+    top: 98px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .item-5 {
+    top: 119px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-12 {
+    position: absolute;
+    height: 16px;
+    top: 139px;
+    left: 20px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #333333;
+    font-size: 13.2px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-13 {
+    position: absolute;
+    height: 16px;
+    top: 160px;
+    left: 20px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #333333;
+    font-size: 13.2px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .background-border-2 {
+    height: 233px;
+    top: 319px;
+    position: absolute;
+    width: 1322px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #dddddd;
+    box-shadow: 0px 4px 6px #0000001a;
+  }
+  
+  .PROGRAM-KERJA .heading-2 {
+    height: 43px;
+    position: absolute;
+    width: 1320px;
+    top: 1px;
+    left: 1px;
+    background-color: #323d3f;
+    border-radius: var(--osisadmin-github-io-radius-5)
+      var(--osisadmin-github-io-radius-5) 0px 0px;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-14 {
+    position: absolute;
+    height: 22px;
+    top: 9px;
+    left: 10px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18.6px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .PROGRAM-KERJA .container-2 {
+    height: 46px;
+    top: 44px;
+    position: absolute;
+    width: 1320px;
+    left: 1px;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-15 {
+    height: 16px;
+    font-size: var(--osisadmin-github-io-inter-regular-font-size);
+    white-space: nowrap;
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    font-family: var(--osisadmin-github-io-inter-regular-font-family);
+    font-weight: var(--osisadmin-github-io-inter-regular-font-weight);
+    color: #556474;
+    letter-spacing: var(--osisadmin-github-io-inter-regular-letter-spacing);
+    line-height: var(--osisadmin-github-io-inter-regular-line-height);
+    font-style: var(--osisadmin-github-io-inter-regular-font-style);
+  }
+  
+  .PROGRAM-KERJA .list-2 {
+    position: absolute;
+    width: 1320px;
+    height: 114px;
+    top: 90px;
+    left: 1px;
+    gap: var(--osisadmin-github-io-radius-5);
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-16 {
+    position: absolute;
+    height: 16px;
+    top: -1px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #333333;
+    font-size: 13.3px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-17 {
+    font-size: var(--osisadmin-github-io-inter-regular-font-size);
+    white-space: nowrap;
+    position: absolute;
+    height: 16px;
+    top: -1px;
+    left: 0;
+    font-family: var(--osisadmin-github-io-inter-regular-font-family);
+    font-weight: var(--osisadmin-github-io-inter-regular-font-weight);
+    color: #333333;
+    letter-spacing: var(--osisadmin-github-io-inter-regular-letter-spacing);
+    line-height: var(--osisadmin-github-io-inter-regular-line-height);
+    font-style: var(--osisadmin-github-io-inter-regular-font-style);
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-18 {
+    position: absolute;
+    height: 16px;
+    top: 55px;
+    left: 20px;
+    font-family: var(--osisadmin-github-io-inter-regular-font-family);
+    font-weight: var(--osisadmin-github-io-inter-regular-font-weight);
+    color: #333333;
+    font-size: var(--osisadmin-github-io-inter-regular-font-size);
+    letter-spacing: var(--osisadmin-github-io-inter-regular-letter-spacing);
+    line-height: var(--osisadmin-github-io-inter-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--osisadmin-github-io-inter-regular-font-style);
+  }
+  
+  .PROGRAM-KERJA .background-border-3 {
+    height: 485px;
+    top: 573px;
+    position: absolute;
+    width: 1322px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #dddddd;
+    box-shadow: 0px 4px 6px #0000001a;
+  }
+  
+  .PROGRAM-KERJA .list-3 {
+    height: 366px;
+    top: 90px;
+    position: absolute;
+    width: 1320px;
+    left: 1px;
+    gap: var(--osisadmin-github-io-radius-5);
+  }
+  
+  .PROGRAM-KERJA .item-6 {
+    top: 140px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .item-7 {
+    top: 161px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .item-8 {
+    top: 182px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .item-9 {
+    top: 203px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .item-10 {
+    top: 224px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .item-11 {
+    top: 245px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .item-12 {
+    top: 266px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .item-13 {
+    top: 287px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .item-14 {
+    top: 308px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .item-15 {
+    top: 329px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .item-16 {
+    top: 350px;
+    position: absolute;
+    width: 1300px;
+    height: 16px;
+    left: 20px;
+  }
+  
+  .PROGRAM-KERJA .background-border-4 {
+    height: 264px;
+    top: 1079px;
+    position: absolute;
+    width: 1322px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #dddddd;
+    box-shadow: 0px 4px 6px #0000001a;
+  }
+  
+  .PROGRAM-KERJA .list-4 {
+    height: 156px;
+    top: 91px;
+    position: absolute;
+    width: 1320px;
+    left: 1px;
+    gap: var(--osisadmin-github-io-radius-5);
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-19 {
+    top: 97px;
+    left: 20px;
+    position: absolute;
+    height: 16px;
+    font-family: var(--osisadmin-github-io-inter-regular-font-family);
+    font-weight: var(--osisadmin-github-io-inter-regular-font-weight);
+    color: #333333;
+    font-size: var(--osisadmin-github-io-inter-regular-font-size);
+    letter-spacing: var(--osisadmin-github-io-inter-regular-letter-spacing);
+    line-height: var(--osisadmin-github-io-inter-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--osisadmin-github-io-inter-regular-font-style);
+  }
+  
+  .PROGRAM-KERJA .background-border-5 {
+    height: 285px;
+    top: 1700px;
+    position: absolute;
+    width: 1322px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #dddddd;
+    box-shadow: 0px 4px 6px #0000001a;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-20 {
+    position: absolute;
+    height: 19px;
+    top: -2px;
+    left: 0;
+    font-family: var(--osisadmin-github-io-semantic-item-font-family);
+    font-weight: var(--osisadmin-github-io-semantic-item-font-weight);
+    color: #333333;
+    font-size: var(--osisadmin-github-io-semantic-item-font-size);
+    letter-spacing: var(--osisadmin-github-io-semantic-item-letter-spacing);
+    line-height: var(--osisadmin-github-io-semantic-item-line-height);
+    font-style: var(--osisadmin-github-io-semantic-item-font-style);
+  }
+  
+  .PROGRAM-KERJA .background-border-6 {
+    height: 195px;
+    top: 2010px;
+    position: absolute;
+    width: 1322px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #dddddd;
+    box-shadow: 0px 4px 6px #0000001a;
+  }
+  
+  .PROGRAM-KERJA .list-5 {
+    height: 72px;
+    top: 90px;
+    position: absolute;
+    width: 1320px;
+    left: 1px;
+    gap: var(--osisadmin-github-io-radius-5);
+  }
+  
+  .PROGRAM-KERJA .background-border-7 {
+    height: 404px;
+    top: 2230px;
+    position: absolute;
+    width: 1322px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #dddddd;
+    box-shadow: 0px 4px 6px #0000001a;
+  }
+  
+  .PROGRAM-KERJA .list-6 {
+    height: 282px;
+    top: 91px;
+    position: absolute;
+    width: 1320px;
+    left: 1px;
+    gap: var(--osisadmin-github-io-radius-5);
+  }
+  
+  .PROGRAM-KERJA .background-border-8 {
+    height: 263px;
+    top: 2659px;
+    position: absolute;
+    width: 1322px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #dddddd;
+    box-shadow: 0px 4px 6px #0000001a;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-21 {
+    position: absolute;
+    height: 22px;
+    top: 9px;
+    left: 10px;
+    font-family: var(--osisadmin-github-io-semantic-heading-3-font-family);
+    font-weight: var(--osisadmin-github-io-semantic-heading-3-font-weight);
+    color: #ffffff;
+    font-size: var(--osisadmin-github-io-semantic-heading-3-font-size);
+    letter-spacing: var(--osisadmin-github-io-semantic-heading-3-letter-spacing);
+    line-height: var(--osisadmin-github-io-semantic-heading-3-line-height);
+    white-space: nowrap;
+    font-style: var(--osisadmin-github-io-semantic-heading-3-font-style);
+  }
+  
+  .PROGRAM-KERJA .background-border-9 {
+    height: 300px;
+    top: 1372px;
+    position: absolute;
+    width: 1322px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #dddddd;
+    box-shadow: 0px 4px 6px #0000001a;
+  }
+  
+  .PROGRAM-KERJA .heading-3 {
+    height: 67px;
+    position: absolute;
+    width: 1320px;
+    top: 1px;
+    left: 1px;
+    background-color: #323d3f;
+    border-radius: var(--osisadmin-github-io-radius-5)
+      var(--osisadmin-github-io-radius-5) 0px 0px;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-22 {
+    position: absolute;
+    width: 1300px;
+    height: 46px;
+    top: 9px;
+    left: 10px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18.7px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .program-kerja-yang-wrapper {
+    height: 62px;
+    top: 68px;
+    position: absolute;
+    width: 1320px;
+    left: 1px;
+  }
+  
+  .PROGRAM-KERJA .program-kerja-yang {
+    width: 1290px;
+    height: 32px;
+    font-size: 13.6px;
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #556474;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .list-7 {
+    height: 114px;
+    top: 130px;
+    position: absolute;
+    width: 1320px;
+    left: 1px;
+    gap: var(--osisadmin-github-io-radius-5);
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-23 {
+    position: absolute;
+    height: 16px;
+    top: 13px;
+    left: 20px;
+    font-family: var(--osisadmin-github-io-inter-regular-font-family);
+    font-weight: var(--osisadmin-github-io-inter-regular-font-weight);
+    color: #333333;
+    font-size: var(--osisadmin-github-io-inter-regular-font-size);
+    letter-spacing: var(--osisadmin-github-io-inter-regular-letter-spacing);
+    line-height: var(--osisadmin-github-io-inter-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--osisadmin-github-io-inter-regular-font-style);
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-24 {
+    position: absolute;
+    height: 16px;
+    top: 76px;
+    left: 20px;
+    font-family: var(--osisadmin-github-io-inter-regular-font-family);
+    font-weight: var(--osisadmin-github-io-inter-regular-font-weight);
+    color: #333333;
+    font-size: var(--osisadmin-github-io-inter-regular-font-size);
+    letter-spacing: var(--osisadmin-github-io-inter-regular-letter-spacing);
+    line-height: var(--osisadmin-github-io-inter-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--osisadmin-github-io-inter-regular-font-style);
+  }
+  
+  .PROGRAM-KERJA .lihat-progres {
+    width: 407px;
+    top: 4651px;
+    left: 516px;
+    background-color: #0d2034;
+    border-radius: 12px;
+    position: absolute;
+    height: 70px;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-25 {
+    width: 367px;
+    top: 15px;
+    left: 17px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    height: 70px;
+  }
+  
+  .PROGRAM-KERJA .group-3 {
+    position: absolute;
+    width: 1331px;
+    height: 254px;
+    top: 401px;
+    left: 59px;
+    background-image: url(https://c.animaapp.com/hRvNb0jP/img/rectangle-133.png);
+    background-size: 100% 100%;
+  }
+  
+  .PROGRAM-KERJA .desain-tanpa-judul-wrapper {
+    position: absolute;
+    width: 221px;
+    height: 221px;
+    top: 16px;
+    left: 16px;
+    background-image: url(https://c.animaapp.com/hRvNb0jP/img/rectangle-127@2x.png);
+    background-size: 100% 100%;
+  }
+  
+  .PROGRAM-KERJA .desain-tanpa-judul {
+    width: 174px;
+    height: 174px;
+    top: 23px;
+    left: 23px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .PROGRAM-KERJA .program-CYBER-crypto {
+    position: absolute;
+    width: 1053px;
+    height: 156px;
+    top: 37px;
+    left: 260px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #323d3f;
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-26 {
+    font-weight: 900;
+  }
+  
+  .PROGRAM-KERJA .text-wrapper-27 {
+    font-weight: 700;
+    font-size: 23px;
+  }
+  
+  .PROGRAM-KERJA .overlap-group-wrapper {
+    position: absolute;
+    width: 1331px;
+    height: 275px;
+    top: 1001px;
+    left: 59px;
+  }
+  
+  .PROGRAM-KERJA .overlap-3 {
+    position: relative;
+    height: 274px;
+  }
+  
+  .PROGRAM-KERJA .rectangle {
+    position: absolute;
+    width: 1331px;
+    height: 253px;
+    top: 0;
+    left: 0;
+  }
+  
+  .PROGRAM-KERJA .rectangle-2 {
+    position: absolute;
+    width: 221px;
+    height: 221px;
+    top: 16px;
+    left: 16px;
+  }
+  
+  .PROGRAM-KERJA .desain-tanpa-judul-2 {
+    width: 193px;
+    height: 193px;
+    top: 29px;
+    left: 29px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .PROGRAM-KERJA .pos-ronda-podcast {
+    position: absolute;
+    width: 1067px;
+    height: 246px;
+    top: 28px;
+    left: 260px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #002c58;
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .group-4 {
+    position: absolute;
+    width: 1331px;
+    height: 253px;
+    top: 701px;
+    left: 59px;
+    background-image: url(https://c.animaapp.com/hRvNb0jP/img/rectangle-131.png);
+    background-size: 100% 100%;
+  }
+  
+  .PROGRAM-KERJA .desain-tanpa-judul-3 {
+    width: 174px;
+    height: 174px;
+    top: 15px;
+    left: 22px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .PROGRAM-KERJA .class-meeting-adalah {
+    position: absolute;
+    width: 949px;
+    top: 21px;
+    left: 260px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #323d3f;
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .PROGRAM-KERJA .group-5 {
+    position: absolute;
+    width: 1331px;
+    height: 254px;
+    top: 1300px;
+    left: 59px;
+    background-image: url(https://c.animaapp.com/hRvNb0jP/img/rectangle-133.png);
+    background-size: 100% 100%;
+  }
+  
+  .PROGRAM-KERJA .desain-tanpa-judul-4 {
+    width: 221px;
+    height: 221px;
+    top: 17px;
+    left: 16px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .PROGRAM-KERJA .QRUS-QR-untuk {
+    position: absolute;
+    width: 1052px;
+    top: 32px;
+    left: 260px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #323d3f;
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .TENTANG-KAMI .kontak-email-osis-wrapper {
+    display: flex;
+    width: 1447px;
+    height: 183px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 30px;
+    position: absolute;
+    top: 12967px;
+    left: 0;
+    background-color: #323d3f;
+  }
+  
+  .row {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 7.8%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 80%;
+    position: absolute;
+  }
+
+  
+  .row ::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
