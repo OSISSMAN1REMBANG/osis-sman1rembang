@@ -1,425 +1,479 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.262">
-    <link rel="stylesheet" href="globals3.css" />
-    <link rel="stylesheet" href="styleguide3.css" />
-    <link rel="stylesheet" href="style3.css" />
-  </head>
-  <body>
-    <div class="PROGRAM-KERJA">
-      <div class="div">
-        <div class="frame">
-          <div class="overlap">
-            <img class="logo-sman-rembang" src="https://c.animaapp.com/hRvNb0jP/img/logo-sman-1-rembang-1@2x.png" />
-            <img class="img" src="https://c.animaapp.com/hRvNb0jP/img/logo-sman-1-rembang-2@2x.png" />
-          </div>
-          <div class="group">
-            <div class="overlap-group">
-              <div class="text-wrapper"><a href="index.html" class="custom-link" target="_blank" rel="noopener noreferrer">HOME</a></div>
-              <div class="text-wrapper-2"><a href="Tentang Kami.html" class="custom-link" target="_blank" rel="noopener noreferrer">TENTANG KAMI</a></div>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Kerja OSIS SMAN 1 Rembang</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+        }
+        .program-card {
+            transition: all 0.3s ease;
+            background-color: #ffffff;
+            border: 1px solid #eaeaea;
+        }
+        .program-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .program-icon {
+            transition: all 0.3s ease;
+        }
+        .program-card:hover .program-icon {
+            transform: scale(1.1);
+        }
+        .sekbid-card {
+            transition: all 0.3s ease;
+            background-color: #ffffff;
+            border: 1px solid #eaeaea;
+        }
+        .sekbid-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        .nav-link {
+            transition: all 0.2s ease;
+            position: relative;
+        }
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #4f46e5;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover:after, .nav-link.active:after {
+            width: 100%;
+        }
+        .nav-link.active {
+            color: #6d65ff;
+            font-weight: 600;
+        }
+        .tab-button {
+            transition: all 0.2s ease;
+        }
+        .tab-button.active {
+            border-bottom: 3px solid #4f46e5;
+            color: #4f46e5;
+            font-weight: 600;
+        }
+        .social-icon {
+            transition: all 0.3s ease;
+        }
+        .social-icon:hover {
+            transform: translateY(-3px);
+            filter: brightness(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen">
+        <!-- Top Navigation Bar -->
+        <nav class="bg-[#333333] py-4 px-6 shadow-lg sticky top-0 z-20">
+            <div class="container mx-auto max-w-6xl">
+                <div class="flex justify-between items-center">
+                    <!-- Left Logo Placeholder -->
+                    <div class="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
+                        <!-- LOGO_LEFT_PLACEHOLDER -->
+                        <span class="text-xs text-gray-600"><img src="logosma.png" style="border-radius: 100px;"></span>
+                    </div>
+                    
+                    <!-- Navigation Links -->
+                    <div class="flex space-x-8">
+                        <!-- NAV_MENU_HOME -->
+                        <a href="#" class="nav-link text-lg py-2 px-3 text-white">HOME</a>
+                        
+                        <!-- NAV_MENU_ABOUT -->
+                        <a href="#" class="nav-link text-lg py-2 px-3 text-white">TENTANG KAMI</a>
+                        
+                        <!-- NAV_MENU_PROGRAM -->
+                        <a href="#" class="nav-link active text-lg py-2 px-3 text-white">PROGRAM KERJA</a>
+                        
+                        <!-- NAV_MENU_MADING -->
+                        <a href="#" class="nav-link text-lg py-2 px-3 text-white">MADING</a>
+                    </div>
+                    
+                    <!-- Right Logo Placeholder -->
+                    <div class="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
+                        <!-- LOGO_RIGHT_PLACEHOLDER -->
+                        <span class="text-xs text-gray-600"><img src="logoosis.png" style="border-radius: 100px;"></span>
+                    </div>
+                </div>
             </div>
-            <div class="overlap-group-2">
-              <div class="text-wrapper-3">PROGRAM KERJA</div>
-              <a href="https://madingsmansar.my.canva.site/" target="_blank" rel="noopener noreferrer"
-                ><div class="text-wrapper-4">MADING</div></a
-              >
+        </nav>
+
+        <!-- Header -->
+        <header class="bg-gradient-to-r from-[#333333] to-[#444444] text-white py-12 px-4 md:px-8">
+            <div class="container mx-auto max-w-6xl text-center">
+                <h1 class="text-3xl md:text-4xl font-bold mb-2">OSIS SMA NEGERI 1 REMBANG</h1>
+                <p class="text-lg md:text-xl opacity-90 mb-4">"Bangkitkan Semangat Menuju Soedirman Yang Perwira"</p>
+                <div class="inline-block bg-[#222222] px-6 py-2 rounded-full">
+                    <p class="text-md font-medium">KABINET: ARUNIKA KARYA</p>
+                </div>
             </div>
-          </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <div class="bg-white shadow-md sticky top-24 z-10 border-b border-gray-200">
+            <div class="container mx-auto max-w-6xl px-4">
+                <div class="flex overflow-x-auto py-2 space-x-8">
+                    <button class="tab-button active px-2 py-3 text-lg" onclick="showTab('unggulan')">Program Unggulan</button>
+                    <button class="tab-button px-2 py-3 text-lg" onclick="showTab('sekbid')">Program Sekbid</button>
+                </div>
+            </div>
         </div>
-        <div class="overlap-wrapper">
-          <div class="overlap-2">
-            <p class="p">OSIS SMA NEGERI 1 REMBANG</p>
-            <p class="text-wrapper-5">Bangkitkan Semangat Menuju Soedirman Yang Perwira</p>
-          </div>
-        </div>
-        <div class="kontak-email-osis-wrapper">
-          <p class="kontak-email-osis">
-            <span class="text-wrapper-45">Kontak<br /></span>
-            <span class="text-wrapper-46"
-              >Email: osissmansar1991@gmail.com<br />Telepon: 0851-8901-2066<br />Alamat: MGC6+WM6, Dusun III, Bantarbarang, Kec. Rembang,<br> Kabupaten Purbalingga, Jawa Tengah 53356</span
-            >
-            <div class="row">
-              <div class="column">
-                <a href="https://tiktok.com/@osismansar"><img class="medsos" src="tiktok.webp" width="35%;"></a>
-                <a href="https://instagram.com/osis_smansar"><img class="medsos" src="instagram.webp" width="35%;"></a>
-                <a href="https://whatsapp.com/channel/0029VaqIu31Dp2QISnpSYD3M"><img class="medsos" src="whatsapp.png" width="35%;"></a>
-                <a href="https://www.youtube.com/channel/UC7ZPTrUvW8vwb2mb99kDsbA"><img class="medsos" src="youtube.webp" width="35%;"></a>
-              </div>
+
+        <!-- Main Content -->
+        <main class="container mx-auto max-w-6xl px-4 py-8">
+            <!-- Program Unggulan Section -->
+            <section id="unggulan" class="tab-content">
+                <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">Program Unggulan</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Program CYBER -->
+                    <div class="program-card rounded-xl overflow-hidden shadow-lg">
+                        <div class="p-6">
+                            <div class="flex items-center mb-4">
+                                <div class="program-icon bg-amber-100 p-4 rounded-full mr-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <h3 class="text-xl font-bold">Program CYBER</h3>
+                            </div>
+                            <p class="text-gray-700">
+                                <strong>Crypto Youth Blockchain Education Revolution</strong> adalah program kerja OSIS yang bertujuan mengenalkan dan mendidik siswa/i SMAN 1 Rembang tentang teknologi blockchain dan cryptocurrency. Program ini tidak berfokus pada jual beli mata uang kripto, melainkan pada edukasi tentang pemanfaatan teknologi blockchain untuk berbagai aspek kehidupan, seperti keamanan data, transparansi, dan inovasi teknologi untuk kebaikan sosial.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Class Meeting -->
+                    <div class="program-card rounded-xl overflow-hidden shadow-lg">
+                        <div class="p-6">
+                            <div class="flex items-center mb-4">
+                                <div class="program-icon bg-green-100 p-4 rounded-full mr-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <h3 class="text-xl font-bold">Class Meeting</h3>
+                            </div>
+                            <p class="text-gray-700">
+                                Class Meeting adalah kegiatan pasca-ujian di sekolah yang bertujuan untuk mengisi waktu luang siswa dengan aktivitas positif, seperti lomba dan permainan, guna meningkatkan kekompakan dan kebersamaan.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Pos Ronda -->
+                    <div class="program-card rounded-xl overflow-hidden shadow-lg">
+                        <div class="p-6">
+                            <div class="flex items-center mb-4">
+                                <div class="program-icon bg-blue-100 p-4 rounded-full mr-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+                                    </svg>
+                                </div>
+                                <h3 class="text-xl font-bold">Pos Ronda</h3>
+                            </div>
+                            <p class="text-gray-700">
+                                <strong>Podcast Smansar Rombongan Pemuda Karya</strong> adalah sebuah program podcast yang diinisiasi oleh siswa SMAN 1 Rembang (SMANSAR). Podcast ini bertujuan untuk menjadi wadah bagi para pemuda di sekolah untuk berdiskusi, berbagi ide, dan berkarya. Melalui podcast ini, siswa dapat mengeksplorasi berbagai topik seperti pendidikan, sosial, teknologi, budaya, dan isu-isu relevan lainnya, dengan menghadirkan narasumber atau pembicara dari berbagai latar belakang.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- QRUS -->
+                    <div class="program-card rounded-xl overflow-hidden shadow-lg">
+                        <div class="p-6">
+                            <div class="flex items-center mb-4">
+                                <div class="program-icon bg-purple-100 p-4 rounded-full mr-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
+                                    </svg>
+                                </div>
+                                <h3 class="text-xl font-bold">QRUS</h3>
+                            </div>
+                            <p class="text-gray-700">
+                                <strong>QR Untuk SMANSAR</strong> adalah sistem berbasis QR Code yang digunakan untuk memudahkan akses fasilitas digital yang diberikan oleh OSIS SMA N 1 Rembang. Meliputi website, instagram, tiktok, dan media sosial resmi OSIS SMA Negeri 1 Rembang lainnya. QR ini memudahkan pengumpulan data, meningkatkan partisipasi siswa dalam pengambilan keputusan, dan mempercepat proses feedback.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Program Sekbid Section -->
+            <section id="sekbid" class="tab-content hidden">
+                <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">Program Sekbid</h2>
+                
+                <div class="space-y-8">
+                    <!-- SEKBID 1 -->
+                    <div class="sekbid-card rounded-xl overflow-hidden shadow-lg">
+                        <div class="bg-[#333333] text-white p-4">
+                            <h3 class="text-xl font-bold">SEKBID 1: IMAN DAN KETAKWAAN TERHADAP TUHAN YANG MAHA ESA</h3>
+                        </div>
+                        <div class="p-6">
+                            <ol class="list-decimal pl-5 space-y-2 text-gray-700">
+                                <li>Penjadwalan piket di masjid khusus rohis</li>
+                                <li>Penjadwalan khotib & muadzin</li>
+                                <li>Pembacaan Asmaul Husna kegiatan pagi</li>
+                                <li>Peringatan Isra Mi'raj</li>
+                                <li>Bakti sosial</li>
+                                <li>Pesantren kilat</li>
+                                <li>Pembagian takjil</li>
+                                <li>Mengordinir kegiatan keputrian</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- SEKBID 2 -->
+                    <div class="sekbid-card rounded-xl overflow-hidden shadow-lg">
+                        <div class="bg-[#333333] text-white p-4">
+                            <h3 class="text-xl font-bold">SEKBID 2: AHLAK MULIA DAN BUDI PEKERTI LUHUR</h3>
+                        </div>
+                        <div class="p-6">
+                            <ol class="list-decimal pl-5 space-y-2 text-gray-700">
+                                <li>Mengawasi lembaga PKS</li>
+                                <li>Mempublikasikan konten edukasi tentang budi pekerti peraturan sekolah</li>
+                                <li>Mengadakan lomba konten edukasi</li>
+                                <li>Mengadakan lomba suporter terbaik saat classmeet</li>
+                                <li>Mengadakan lomba cerita moral dan nilai kehidupan</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- SEKBID 3 -->
+                    <div class="sekbid-card rounded-xl overflow-hidden shadow-lg">
+                        <div class="bg-[#333333] text-white p-4">
+                            <h3 class="text-xl font-bold">SEKBID 3: KEPRIBADIAN UNGGUL WAWASAN KEBANGSAAN DAN BELA NEGARA</h3>
+                        </div>
+                        <div class="p-6">
+                            <ol class="list-decimal pl-5 space-y-2 text-gray-700">
+                                <li>Melaksanakan dan melatih upacara bergilir setiap kelas</li>
+                                <li>Melaksanakan upacara upacara hari hari besar dan kepahlawanan</li>
+                                <li>Mengesahkan dan menanungi lembaga Paskib</li>
+                                <li>Berkolaborasi dengan lembaga PKS dalam razia atribut setiap upacara hari senin</li>
+                                <li>Membuat jadwal dan kerjasama dengan lembaga paskib dalam melatih upacara per kelas</li>
+                                <li>Mengadakan program berupa poster kepahlawanan dengan berkolaborasi bersama petugas madding</li>
+                                <li>Mengadakan diklat paskib</li>
+                                <li>Mengajukan program study banding ke instansi militer/museum kemiliteran</li>
+                                <li>Mendampingi lembaga Paskib dalam LKBB</li>
+                                <li>Mewajibkan seluruh OSIS dalam pelaksanaan paduan suara ketika upacara bendera</li>
+                                <li>Mengadakan Kompetisi di hari-hari besar berupa LCC Seputar sejarah nasional dan kebangsaan</li>
+                                <li>Mengawasi dan mendampingi dalam setiap latihan rutin paskib</li>
+                                <li>Menyediakan bendera merah putih di setiap kelas</li>
+                                <li>Menyelenggarakan kegiatan penggalangan dana sosial nasionalisme dan peduli bangsa terkait bencana alam</li>
+                                <li>Mengadakan Nobar film kepahlawanan/peristiwa peristiwa bersejarah dalam sejarah kemerdekaan Indonesia</li>
+                                <li>Mengajukan pembuatan ban lengan/penanda identitas khusus bagi pelatih upacara</li>
+                                <li>Mengganti dan menerapkan (Tata Upacara Sekolah) Sempurna</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- SEKBID 4 -->
+                    <div class="sekbid-card rounded-xl overflow-hidden shadow-lg">
+                        <div class="bg-[#333333] text-white p-4">
+                            <h3 class="text-xl font-bold">SEKBID 4: PRESTASI AKADEMIK, SENI, OLAHRAGA SESUAI BAKAT DAN MINAT</h3>
+                        </div>
+                        <div class="p-6">
+                            <ol class="list-decimal pl-5 space-y-2 text-gray-700">
+                                <li>Membantu terlaksananya kegiatan lomba peringatan hari mata pelajaran atau program keahlian (hari matematika)</li>
+                                <li>Mengadakan lomba dalam kegiatan Clasmeet</li>
+                                <li>Mengadakan Lomba HUT RI ke 80</li>
+                                <li>Mengoptimalkan mading</li>
+                                <li>Membantu terselenggaranya peringatan bulan bahasa</li>
+                                <li>SARAF (Smansar Achievement Farming)</li>
+                                <li>VEESAR (VidEo Edukasi SmAnsaR)</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- SEKBID 5 -->
+                    <div class="sekbid-card rounded-xl overflow-hidden shadow-lg">
+                        <div class="bg-[#333333] text-white p-4">
+                            <h3 class="text-xl font-bold">SEKBID 5: DEMOKRASI, HAM PENDIDIKAN POLITIK, LINGKUNGAN HIDUP KEPEKAAN DAN TOLERANSI SOSIAL</h3>
+                        </div>
+                        <div class="p-6">
+                            <ol class="list-decimal pl-5 space-y-2 text-gray-700">
+                                <li>Menyelenggarakan acara amal dan donasi</li>
+                                <li>Membentuk komisi pemilihan ketua dan wakil ketua OSIS</li>
+                                <li>Mengadakan debat antara calon ketua dan wakil ketua OSIS</li>
+                                <li>Membuat mading informasi dan edukasi mengenai hari bumi, kesehatan mental dan demokrasi</li>
+                                <li>Memperingati hari bumi: melaksanakan penghijauan, peduli bumi dengan pembersihan lingkungan</li>
+                                <li>Berkolaborasi dengan sekbid 4 melaksanakan veesar mengenai kepekaan sosial</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- SEKBID 6 -->
+                    <div class="sekbid-card rounded-xl overflow-hidden shadow-lg">
+                        <div class="bg-[#333333] text-white p-4">
+                            <h3 class="text-xl font-bold">SEKBID 6: KREATIVITAS, KETERAMPILAN, DAN KEWIRAUSAHAAN</h3>
+                        </div>
+                        <div class="p-6">
+                            <ol class="list-decimal pl-5 space-y-2 text-gray-700">
+                                <li>Berkontribusi dalam Mengadakan bazar sekolah sebagai wadah siswa untuk berwirausaha</li>
+                                <li>Mengumpulkan hasil kreasi/karya tulis perkelas untuk di pajang di mading sekolah berkolaborasi dengan tim mading</li>
+                                <li>Pemberdayaan pameran seni dengan berkolaborasi bersama sekbid 8</li>
+                                <li>Berkolaborasi dengan seksi bidang 9 untuk membuat program VASIS (vanijya osis)</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- SEKBID 7 -->
+                    <div class="sekbid-card rounded-xl overflow-hidden shadow-lg">
+                        <div class="bg-[#333333] text-white p-4">
+                            <h3 class="text-xl font-bold">SEKBID 7: PENDIDIKAN KUALITAS JASMANI KESEHATAN DAN GIZI</h3>
+                        </div>
+                        <div class="p-6">
+                            <ol class="list-decimal pl-5 space-y-2 text-gray-700">
+                                <li>Mengkoordinir jalannya kegiatan jum'at gizi, sehat dan bersih</li>
+                                <li>Mengadakan lomba yang bisa meningkatkan skil dan prestasi non akademik siswa</li>
+                                <li>Mengkoordinir berjalannya classmeet</li>
+                                <li>Menciptakan senam SMANSAR</li>
+                                <li>Membuat tiang pull up di pinggir lapangan</li>
+                                <li>Berkolaborasi dengan beberapa sekbid dalam membuat mading dengan Tema kesehatan</li>
+                                <li>Mengkoordinasi untuk berpartisipasi lomba non akademik</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- SEKBID 8 -->
+                    <div class="sekbid-card rounded-xl overflow-hidden shadow-lg">
+                        <div class="bg-[#333333] text-white p-4">
+                            <h3 class="text-xl font-bold">SEKBID 8: SASTRA DAN BUDAYA</h3>
+                        </div>
+                        <div class="p-6">
+                            <ol class="list-decimal pl-5 space-y-2 text-gray-700">
+                                <li>Berkolaborasi mading yang bertemakan budaya/sastra setiap 2/1 bulan 1 kali</li>
+                                <li>Memperingati hari Kartini menggunakan baju daerah, mengadakan lomba baca puisi, membuat cerpen, dan menonton film Kartini</li>
+                                <li>Pemberdayaan pameran seni berkolaborasi dengan sekbid 6</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- SEKBID 9 -->
+                    <div class="sekbid-card rounded-xl overflow-hidden shadow-lg">
+                        <div class="bg-[#333333] text-white p-4">
+                            <h3 class="text-xl font-bold">SEKBID 9: PEMANFAATAN TEKNOLOGI, INFORMASI DAN KOMUNIKASI</h3>
+                        </div>
+                        <div class="p-6">
+                            <ol class="list-decimal pl-5 space-y-2 text-gray-700">
+                                <li>Mendokumentasikan seluruh kegiatan OSIS SMA Negeri 1 Rembang</li>
+                                <li>Mempublikasikan Video/Foto ke akun SOSMED OSIS SMA Negeri 1 Rembang</li>
+                                <li>Membuat ID Card OSIS SMA Negeri 1 Rembang</li>
+                                <li>Mengadakan Lomba Fotografi ataupun Desain grafis</li>
+                                <li>Membuat WEBSITE OSIS SMA Negeri 1 Rembang</li>
+                                <li>Membuat Forum Aspirasi SMA Negeri 1 Rembang Yang bernamakan UPS!: Ungkapkan Pesanmu Sekarang!</li>
+                                <li>Membuat Saluran What'sApp SMANSARIAN</li>
+                                <li>Membuat Program Literasi Digital</li>
+                                <li>Ikut serta mengelola PROKER SEKBID 4: VEESAR (Video Edukasi SMANSAR)</li>
+                                <li>Ikut serta mengelola PROKER SEKBID 6 VASIS: Vanijya OSIS</li>
+                                <li>Ikut serta mengelola PROKER SEKBID 10: Bedah Soal B. Inggris, English Tutoring, Quis B. Inggris, English Edukasi</li>
+                                <li>Mengelola POS RONDA: Podcast SMANSAR Rombongan Pemuda Karya</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- SEKBID 10 -->
+                    <div class="sekbid-card rounded-xl overflow-hidden shadow-lg">
+                        <div class="bg-[#333333] text-white p-4">
+                            <h3 class="text-xl font-bold">SEKBID 10: KOMUNIKASI DALAM BAHASA INGGRIS</h3>
+                        </div>
+                        <div class="p-6">
+                            <ol class="list-decimal pl-5 space-y-2 text-gray-700">
+                                <li>Kuis Bahasa Inggris Berhadiah</li>
+                                <li>Mading English</li>
+                                <li>English Education</li>
+                                <li>Mengadakan kuis bahasa inggris berhadiah di akun media sosial OSIS SMAN 1 Rembang setiap 3 bulan sekali</li>
+                                <li>English education</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-[#333333] text-white py-8 px-4">
+            <div class="container mx-auto max-w-6xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Contact Information -->
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Kontak</h3>
+                        <div class="space-y-2">
+                            <p><span class="font-medium">Email:</span> osissmansar1991@gmail.com</p>
+                            <p><span class="font-medium">Telepon:</span> 0851-8901-2066</p>
+                            <p><span class="font-medium">Alamat:</span> MGC6+WM6, Dusun III, Bantarbarang, Kec. Rembang,<br>Kabupaten Purbalingga, Jawa Tengah 53356</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media Icons -->
+                    <div class="flex flex-col items-center md:items-end justify-center space-y-4">
+                        <!-- TikTok -->
+                        <div class="social-icon bg-gray-700 hover:bg-gray-600 p-3 rounded-full w-12 h-12 flex items-center justify-center">
+                            <a href="https://tiktok.com/@osismansar"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+                            </svg></a>
+                        </div>
+                        
+                        <!-- Instagram -->
+                        <div class="social-icon bg-gray-700 hover:bg-gray-600 p-3 rounded-full w-12 h-12 flex items-center justify-center">
+                            <a href="https://instagram.com/osis_smansar"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg></a>
+                        </div>
+                        
+                        <!-- WhatsApp -->
+                        <div class="social-icon bg-gray-700 hover:bg-gray-600 p-3 rounded-full w-12 h-12 flex items-center justify-center">
+                            <a href="https://whatsapp.com/channel/0029VaqIu31Dp2QISnpSYD3M"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                            </svg></a>
+                        </div>
+                        
+                        <!-- YouTube -->
+                        <div class="social-icon bg-gray-700 hover:bg-gray-600 p-3 rounded-full w-12 h-12 flex items-center justify-center">
+                            <a href="https://www.youtube.com/channel/UC7ZPTrUvW8vwb2mb99kDsbA"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                            </svg></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-8 pt-6 border-t border-gray-700">
+                    <p class="text-gray-400">© 2025 OSIS SMA Negeri 1 Rembang. All Rights Reserved.</p>
+                </div>
             </div>
-        </div>
-        <div class="text-wrapper-7">ARUNIKA KARYA</div>
-        <div class="group-2">
-          <div class="background-border">
-            <div class="heading">
-              <p class="text-wrapper-8">SEKBID 1 : IMAN DAN KETAKWAAN TERHADAP TUHAN YANG MAHA ESA</p>
-            </div>
-            <div class="container">
-              <p class="div-2">
-                <span class="text-wrapper-9">Program kerja yang akan dilakukan oleh SEKBID</span>
-                <span class="span">&nbsp;</span>
-                <span class="text-wrapper-9">IMAN DAN KETAKWAAN TERHADAP TUHAN YANG MAHA ESA</span>
-                <span class="span">&nbsp;</span>
-                <span class="text-wrapper-9">antara lain:</span>
-              </p>
-            </div>
-            <div class="list">
-              <div class="item"><p class="text-wrapper-10">1. Penjadwalan piket di masjid khusus rohis</p></div>
-              <div class="div-wrapper"><div class="text-wrapper-11">2. Penjadwalan khotib &amp; muadzin</div></div>
-              <div class="item-2"><p class="text-wrapper-10">3. Pembacaan Asmaul Husna kegiatan pagi</p></div>
-              <div class="item-3"><div class="text-wrapper-10">4. Peringatan Isra Mi&#39;raj</div></div>
-              <div class="item-4"><div class="text-wrapper-10">5. Bakti sosial</div></div>
-              <div class="item-5"><div class="text-wrapper-10">6. Pesantren kilat</div></div>
-              <div class="text-wrapper-12">7. Pembagian takjil</div>
-              <div class="text-wrapper-13">8. Mengordinir kegiatan keputrian</div>
-            </div>
-          </div>
-          <div class="background-border-2">
-            <div class="heading-2"><p class="text-wrapper-14">SEKBID 2: AHLAK MULIA DAN BUDI PEKERTI LUHUR</p></div>
-            <div class="container-2">
-              <p class="text-wrapper-15">
-                Program kerja yang akan dilakukan oleh SEKBID AHLAK MULIA DAN BUDI PEKRETI LUHUR antara lain:
-              </p>
-            </div>
-            <div class="list-2">
-              <div class="item"><div class="text-wrapper-16">1. Mengawasi lembaga PKS</div></div>
-              <div class="div-wrapper">
-                <p class="text-wrapper-17">2. Mempublikasikan konten edukasi tentang budi pekerti peraturan sekolah</p>
-              </div>
-              <div class="text-wrapper-18">3. Mengadakan lomba konten edukasi</div>
-              <div class="item-3"><p class="text-wrapper-10">4. Mengadakan lomba suporter terbaik saat classmeet</p></div>
-              <div class="item-4"><p class="text-wrapper-10">5. Mengadakan lomba cerita moral dan nilai kehidupan</p></div>
-            </div>
-          </div>
-          <div class="background-border-3">
-            <div class="heading-2">
-              <p class="text-wrapper-14">SEKBID 3: KEPRIBADIAN UNGGUL WAWASAN KEBANGSAAN DAN BELA NEGARA</p>
-            </div>
-            <div class="container-2">
-              <p class="text-wrapper-15">
-                Program kerja yang akan dilakukan oleh SEKBID KEPRIBADIAN UNGGUL WAWASAN KEBANGSAAN DAN BELA NEGARA
-                antara lain:
-              </p>
-            </div>
-            <div class="list-3">
-              <div class="item">
-                <p class="text-wrapper-17">1. Melaksanakan dan melatih upacara bergilir setiap kelas</p>
-              </div>
-              <div class="div-wrapper">
-                <p class="text-wrapper-17">2. Melaksanakan upacara upacara hari hari besar dan kepahlawanan</p>
-              </div>
-              <div class="item-2"><p class="text-wrapper-17">3. Mengesahkan dan menanungi lembaga Paskib</p></div>
-              <div class="item-3">
-                <p class="text-wrapper-17">
-                  4. Berkolaborasi dengan lembaga PKS dalam razia atribut setiap upacara hari senin
-                </p>
-              </div>
-              <div class="item-4">
-                <p class="text-wrapper-17">
-                  5. Membuat jadwal dan kerjasama dengan lembaga paskib dalam melatih upacara per kelas
-                </p>
-              </div>
-              <div class="item-5">
-                <p class="text-wrapper-17">
-                  6. Mengadakan program berupa poster kepahlawanan dengan berkolaborasi bersama petugas mading
-                </p>
-              </div>
-              <div class="item-6"><div class="text-wrapper-17">7. Mengadakan diklat paskib</div></div>
-              <div class="item-7">
-                <p class="text-wrapper-17">8. mengajukan program study banding ke instansi militer/museum kemiliteran</p>
-              </div>
-              <div class="item-8"><p class="text-wrapper-17">9. Mendampingi lembaga Paskib dalam LKBB</p></div>
-              <div class="item-9">
-                <p class="text-wrapper-17">
-                  10. Mewajibkan seluruh OSIS dalam pelaksanaan paduan suara ketika upacara bendera
-                </p>
-              </div>
-              <div class="item-10">
-                <p class="text-wrapper-17">
-                  11. Mengadakan Kompetisi di hari-hari besar berupa LCC Seputar sejarah nasional dan kebangsaan
-                </p>
-              </div>
-              <div class="item-11">
-                <p class="text-wrapper-17">12. Mengawasi dan mendampingi dalam setiap latihan rutin paskib</p>
-              </div>
-              <div class="item-12"><p class="text-wrapper-17">13. Menyediakan bendera merah putih di setiap kelas</p></div>
-              <div class="item-13">
-                <p class="text-wrapper-17">
-                  14. Menyelenggarakan kegiatan penggalangan dana sosial nasionalisme dan peduli bangsa terkait bencana alam
-                </p>
-              </div>
-              <div class="item-14">
-                <p class="text-wrapper-17">
-                  15. Mengadakan Nobar film kepahlawanan/peristiwa peristiwa bersejarah dalam sejarah kemerdekaan Indonesia
-                </p>
-              </div>
-              <div class="item-15">
-                <p class="text-wrapper-17">
-                  16. Mengajukan pembuatan ban lengan/penanda identitas khusus bagi pelatih upacara
-                </p>
-              </div>
-              <div class="item-16">
-                <p class="text-wrapper-17">17. Mengganti dan menerapkan ( Tata Upacara Sekolah ) Sempurna</p>
-              </div>
-            </div>
-          </div>
-          <div class="background-border-4">
-            <div class="heading">
-              <p class="text-wrapper-8">SEKBID 4: PRESTASI AKADEMIK, SENI, OLAHRAGA SESUAI BAKAT DAN MINAT</p>
-            </div>
-            <div class="container">
-              <p class="div-2">
-                Program kerja yang akan dilakukan oleh SEKBID PRESTASI AKADEMIK, SENI, OLAHRAGA SESUAI BAKAT DAN MINAT
-                antara lain:
-              </p>
-            </div>
-            <div class="list-4">
-              <div class="item">
-                <p class="text-wrapper-17">
-                  1. Membantu terlaksananya kegiatan lomba peringatan hari mata pelajaran atau program keahlian (hari
-                  matematika)
-                </p>
-              </div>
-              <div class="div-wrapper"><p class="text-wrapper-17">2. Mengadakan lomba dalam kegiatan Clasmeet</p></div>
-              <div class="item-2"><p class="text-wrapper-17">3. Mengadakan Lomba HUT RI ke 80</p></div>
-              <div class="item-3"><div class="text-wrapper-17">4. Mengoptimalkan mading</div></div>
-              <p class="text-wrapper-19">5. Membantu terselenggaranya peringatan bulan bahasa</p>
-              <div class="item-5"><div class="text-wrapper-17">6. SARAF (Smansar Achievement Farming)</div></div>
-              <div class="item-6"><div class="text-wrapper-17">7. VEESAR (VidEo Edukasi SmAnsaR)</div></div>
-            </div>
-          </div>
-          <div class="background-border-5">
-            <div class="heading">
-              <p class="text-wrapper-8">
-                SEKBID 7: PENDIDIKAN KUALITAS JASMANI KESEHATAN DAN GIZI BERBASIS SUMBER GIZI
-                YANG&nbsp;&nbsp;TERDIVERSIFIKASI
-              </p>
-            </div>
-            <div class="container">
-              <p class="text-wrapper-15">
-                Program kerja yang akan dilakukan oleh SEKBID Sosial dan Lingkungan OSIS antara lain:
-              </p>
-            </div>
-            <div class="list-4">
-              <div class="item">
-                <p class="text-wrapper-17">1. Mengkoordinir jalannya kegiatan jum&#39;at gizi, sehat dan bersih</p>
-              </div>
-              <div class="div-wrapper">
-                <p class="text-wrapper-17">
-                  2. Mengadakan lomba yang bisa meningkatkan skil dan prestasi non akademik siswa
-                </p>
-              </div>
-              <div class="item-2"><div class="text-wrapper-17">3. Mengkoordinir berjalannya classmeet</div></div>
-              <div class="item-3"><div class="text-wrapper-17">4. Menciptakan senam SMANSAR</div></div>
-              <div class="item-4"><p class="text-wrapper-17">5. Membuat tiang pull up di pinggir lapangan</p></div>
-              <div class="item-5">
-                <p class="text-wrapper-17">
-                  6. Berkolaborasi dengan  beberapa sekbid dlm membuat mading dengan Tema kesehatan
-                </p>
-              </div>
-              <div class="item-6">
-                <p class="text-wrapper-20">7. Mengkoordinasi untuk berpartisipasi lomba non akademik</p>
-              </div>
-            </div>
-          </div>
-          <div class="background-border-6">
-            <div class="heading-2"><p class="text-wrapper-14">SEKBID 8: SASTRA DAN BUDAYA</p></div>
-            <div class="container-2">
-              <p class="text-wrapper-15">
-                Program kerja yang akan dilakukan oleh SEKBID SASTRA DAN BUDAYA OSIS antara lain:
-              </p>
-            </div>
-            <div class="list-5">
-              <div class="item">
-                <p class="text-wrapper-16">
-                  1. Berkolaborasi mading yang bertemakan budaya/sastra setiap 2/1 bulan 1 kali
-                </p>
-              </div>
-              <div class="div-wrapper">
-                <p class="text-wrapper-16">
-                  2. Memperingati hari Kartini menggunakan baju daerah, mengadakan lomba baca puisi, membuat cerpen, dan
-                  menonton film Kartini
-                </p>
-              </div>
-              <div class="item-2">
-                <div class="text-wrapper-16">3. Pemberdayaan pameran seni berkolaborasi dengan sekbid 6</div>
-              </div>
-            </div>
-          </div>
-          <div class="background-border-7">
-            <div class="heading">
-              <p class="text-wrapper-8">SEKBID 9: PEMANFAATAN TEKNOLOGI, INFORMASI DAN KOMUNIKASI</p>
-            </div>
-            <div class="container">
-              <p class="text-wrapper-15">
-                Program kerja yang akan dilakukan oleh SEKBID Pemanfaatan Teknologi, Informasi dan Komunikasi OSIS antara lain:
-              </p>
-            </div>
-            <div class="list-6">
-              <div class="item">
-                <p class="text-wrapper-11">1. Mendokumentasikan seluruh kegiatan OSIS SMA Negeri 1 Rembang</p>
-              </div>
-              <div class="div-wrapper">
-                <p class="text-wrapper-11">2. Mempublikasikan Video/Foto ke akun SOSMED OSIS SMA Negeri 1 Rembang</p>
-              </div>
-              <div class="item-2"><p class="text-wrapper-11">3. Membuat ID Card OSIS SMA Negeri 1 Rembang</p></div>
-              <div class="item-3"><p class="text-wrapper-11">4. Mengadakan Lomba Fotografi ataupun Desain grafis</p></div>
-              <div class="item-4"><p class="text-wrapper-11">5. Membuat WEBSITE OSIS SMA Negeri 1 Rembang</p></div>
-              <div class="item-5">
-                <p class="text-wrapper-11">
-                  6. Membuat Forum Aspirasi SMA Negeri 1 Rembang Yang bernamakan UPS!: Ungkapkan Pesanmu Sekarang!
-                </p>
-              </div>
-              <div class="item-6"><div class="text-wrapper-11">7. Membuat Saluran What&#39;sApp SMANSARIAN</div></div>
-              <div class="item-7"><div class="text-wrapper-11">8. Membuat Program Literasi Digital</div></div>
-              <div class="item-8"><p class="text-wrapper-11">9. Ikut serta mengelola PROKER SEKBID 4: VEESAR (Video Edukasi SMANSAR)</p></div>
-              <div class="item-9">
-                <p class="text-wrapper-11">
-                 10.  Ikut serta mengelola PROKER SEKBID 6 VASIS: Vanijya OSIS
-                </p>
-              </div>
-              <div class="item-10">
-                <p class="text-wrapper-11">11. Ikut serta mengelola PROKER SEKBID 10: Bedah Soal B. Inggris, English Tutoring, Quis B. Inggris,
-                  English Edukasi</p>
-              </div>
-              <div class="item-11">
-                <p class="text-wrapper-11">
-                  12. Mengelola POS RONDA: Podcast SMANSAR Rombongan Pemuda Karya
-                </p>
-              </div>
-                 <div class="item-12">
-                <p class="text-wrapper-11"></p>
-              </div>
-            </div>
-          </div>
-          <div class="background-border-8">
-            <div class="heading-2"><p class="text-wrapper-21">SEKBID 10: KOMUNIKASI DALAM BAHASA INGGRIS</p></div>
-            <div class="container-2">
-              <p class="text-wrapper-15">
-                Program kerja yang akan dilakukan oleh SEKBID Komunikasi Dalam Bahasa Inggris OSIS antara lain:
-              </p>
-            </div>
-            <div class="list-2">
-              <div class="item"><div class="text-wrapper-10">1. Kuis Bahasa Inggris Berhadiah</div></div>
-              <div class="div-wrapper"><div class="text-wrapper-10">2. Mading english</div></div>
-              <div class="item-2">
-                <p class="text-wrapper-10">
-                  3. English Education
-                </p>
-              </div>
-              <div class="item-3">
-                <p class="text-wrapper-10">
-                  4. Mengadakan kuis bahasa inggris berhadiah di akun media sosial OSIS SMAN 1 Rembang setiap 3 bulan
-                  sekali
-                </p>
-              </div>
-              <div class="item-4"><div class="text-wrapper-10">5. English education</div></div>
-            </div>
-          </div>
-          <div class="background-border-9">
-            <div class="heading-3">
-              <p class="text-wrapper-22">
-                SEKBID 5: DEMOKRASI, HAM PENDIDIKAN POLITIK, LINGKUNGAN HIDUP KEPEKAAN DAN TOLERANSI SOSIAL DALAM
-                KONTEKS MASYARAKAL PLURAL
-              </p>
-            </div>
-            <div class="program-kerja-yang-wrapper">
-              <p class="program-kerja-yang">
-                <span class="text-wrapper-9">Program kerja yang akan dilakukan oleh SEKBID</span>
-                <span class="span">&nbsp;</span>
-                <span class="text-wrapper-9"
-                  >DEMOKRASI, HAM PENDIDIKAN POLITIK, LINGKUNGAN HIDUP KEPEKAAN DAN TOLERANSI SOSIAL DALAM KONTEKS
-                  MASYARAKAL PLURAL</span
-                >
-                <span class="span">&nbsp;</span>
-                <span class="text-wrapper-9">antara lain:</span>
-              </p>
-            </div>
-            <div class="list-7">
-              <p class="text-wrapper-23">1. Menyelenggarakan acara amal dan donasi</p>
-              <div class="div-wrapper">
-                <p class="text-wrapper-17">2. Membentuk komisi pemilihan ketua dan wakil ketua OSIS</p>
-              </div>
-              <p class="text-wrapper-18">3. Mengadakan debat antara calon ketua dan wakil ketua OSIS</p>
-              <p class="text-wrapper-24">
-                4. Membuat mading informasi dan edukasi mengenai kesehatan mental dan demokrasi
-              </p>
-              <div class="item-4"><div class="text-wrapper-17">5. Jembatan Ekspresi Siswa</div></div>
-            </div>
-          </div>
-        </div>
-        <div class="lihat-progres"><div class="text-wrapper-25"></div></div>
-        <div class="group-3">
-          <div class="desain-tanpa-judul-wrapper">
-            <img
-              class="desain-tanpa-judul"
-              src="https://c.animaapp.com/hRvNb0jP/img/desain-tanpa-judul--15--8@2x.png"
-            />
-          </div>
-          <p class="program-CYBER-crypto">
-            <span class="text-wrapper-26">Program CYBER </span>
-            <span class="text-wrapper-27"
-              >(Crypto Youth Blockchain Education Revolution) adalah program kerja OSIS yang bertujuan mengenalkan dan
-              mendidik siswa/i SMAN 1 Rembang tentang teknologi blockchain dan cryptocurrency. Program ini tidak
-              berfokus pada jual beli mata uang kripto, melainkan pada edukasi tentang pemanfaatan teknologi blockchain
-              untuk berbagai aspek kehidupan, seperti keamanan data, transparansi, dan inovasi teknologi untuk
-              kebaikan sosial.</span
-            >
-          </p>
-        </div>
-        <div class="overlap-group-wrapper">
-          <div class="overlap-3">
-            <img class="rectangle" src="https://c.animaapp.com/hRvNb0jP/img/rectangle-131.png" />
-            <img class="rectangle-2" src="https://c.animaapp.com/hRvNb0jP/img/rectangle-127@2x.png" />
-            <img
-              class="desain-tanpa-judul-2"
-              src="https://c.animaapp.com/hRvNb0jP/img/desain-tanpa-judul--15--7@2x.png"
-            />
-            <p class="pos-ronda-podcast">
-              <span class="text-wrapper-26">Pos Ronda</span>
-              <span class="span"> <br /></span>
-              <span class="text-wrapper-27"
-                >Podcast Smansar Rombongan Pemuda Karya adalah sebuah program podcast yang diinisiasi oleh siswa SMAN 1
-                Rembang (SMANSAR). Podcast ini bertujuan untuk menjadi wadah bagi para pemuda di sekolah untuk
-                berdiskusi, berbagi ide, dan berkarya. Melalui podcast ini, siswa dapat mengeksplorasi berbagai topik
-                seperti pendidikan, sosial, teknologi, budaya, dan isu-isu relevan lainnya, dengan menghadirkan
-                narasumber atau pembicara dari berbagai latar belakang.<br /><br
-              /></span>
-            </p>
-          </div>
-        </div>
-        <div class="group-4">
-          <div class="desain-tanpa-judul-wrapper">
-            <img
-              class="desain-tanpa-judul-3"
-              src="https://c.animaapp.com/hRvNb0jP/img/desain-tanpa-judul--15--4@2x.png"
-            />
-          </div>
-          <p class="class-meeting-adalah">
-            <span class="text-wrapper-26">Class Meeting<br /></span>
-            <span class="text-wrapper-27"
-              >adalah kegiatan pasca-ujian di sekolah yang bertujuan untuk mengisi waktu luang siswa dengan aktivitas
-              positif, seperti lomba dan permainan, guna meningkatkan kekompakan dan kebersamaan.</span
-            >
-          </p>
-        </div>
-        <div class="group-5">
-          <img
-            class="desain-tanpa-judul-4"
-            src="https://c.animaapp.com/hRvNb0jP/img/desain-tanpa-judul--15--5@2x.png"
-          />
-          <p class="QRUS-QR-untuk">
-            <span class="text-wrapper-26">QRUS<br /></span>
-            <span class="text-wrapper-27"
-              >(QR Untuk SMANSAR) adalah sistem berbasis QR Code yang digunakan untuk memudahkn akses fasilitas digital
-              yang diberikan oleh OSIS SMA N 1 Rembang. meliputi website, instagram, tiktok, dan media sosial resmi osis
-              sma negeri 1 rembang lainnya. QR ini memudahkan pengumpulan data, meningkatkan partisipasi siswa dalam
-              pengambilan keputusan, dan mempercepat proses feedback. <br
-            /></span>
-          </p>
-        </div>
-      </div>
+        </footer>
     </div>
-  </body>
+
+    <script>
+        function showTab(tabId) {
+            // Hide all tab contents
+            const tabContents = document.querySelectorAll('.tab-content');
+            tabContents.forEach(content => {
+                content.classList.add('hidden');
+            });
+            
+            // Show the selected tab content
+            document.getElementById(tabId).classList.remove('hidden');
+            
+            // Update active tab button
+            const tabButtons = document.querySelectorAll('.tab-button');
+            tabButtons.forEach(button => {
+                button.classList.remove('active');
+            });
+            
+            // Set the clicked button as active
+            event.currentTarget.classList.add('active');
+        }
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9612b181c695d4a0',t:'MTc1Mjg0OTE5OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
